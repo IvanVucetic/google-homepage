@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: arial, sans-serif;
+  text-align: center;
+}
+
+div {
+  /*border: 1px solid red;*/
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  height: 75px;
+  position: relative;
+  font-size: small;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+#head_r {
+  display: inline;
+  float: right;
+  padding: 0 18px;
+  margin-top: 1px;
+}
+
+li {
+  display: inline;
+}
+#header a {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+#header a img {
+  position: relative;
+  top: 4px;
+}
+
+button {
+  background-color: #4386f8;
+  color: white;
+  border: 1px solid #4386f8;
+  border-radius: 2px;
+  vertical-align: middle;
+  font-weight: bold;
+  height: 30px;
+  width: 69px;
+  text-align: center;
+  padding: 0;
+}
+
+#signin a {
+  color: white;
+}
+
+#central {
+  background-color: white;
+  height: 375px;
+  width: 500px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo {
+  position: relative;
+  height: 95px;
+  margin-top: 109px;
+  text-align: center;
+}
+
+#srb {
+  position: relative;
+  top: -29px;
+  left: 308px;
+  color: #777;
+  font-weight: bold;
+  font-size: 16px;
+  width: 100px;
+}
+
+#search_area {
+  height: 87px;
+  margin-top: 25px;
+  position: relative;
+}
+
+input {
+  height: 26px;
+  width: 484px;
+}
+
+#buttons {
+  clear: both;
+}
+
+.button {
+  height: 29px;
+  width: auto;
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 0 8px;
+  margin: 15px 7px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #444;
+}
+
+#lang_support {
+  height: 29px;
+  margin-top: 33px;
+  font-size: small;
+}
+
+#footer {
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: small;
+}
+
+#foot_l {
+  float: left;
+  margin-left: 3px;
+}
+    
+#foot_r {
+  float: right;
+  margin-right: 30px;
+} 
+
+#footer a {
+  display: inline-block;
+  padding-left: 27px;
+}
